@@ -1,0 +1,13 @@
+{
+  "id" : "86541ce8-d28c-4624-b163-cc8f8fcffeb3",
+  "request" : {
+    "url" : "/hello",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Hello, World",
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "86541ce8-d28c-4624-b163-cc8f8fcffeb3"
+}
